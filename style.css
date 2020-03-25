@@ -87,6 +87,7 @@ main img {
 .left_con h5{
   width: 275px;
   line-height: 18px;
+  height: 8px;
 }
 .left_con ul
 {
@@ -94,14 +95,16 @@ display: flex;
 list-style-type: none;
 justify-content: flex-start;
 align-items: flex-start;
+margin: 0px;
+padding: 0px;
 }
 .left_con ul li{
   padding: 10px;
 
 }
 .icons{
-  width: 20px;
-  height: 20px;
+  width: 70px;
+  height: 50px;
 }
 .test{
   display: flex;
