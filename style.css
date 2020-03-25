@@ -10,10 +10,8 @@ header {
   height: 96px;
   align-items: center;
 }
-.imge{
-    /* align-self: center; */
-    
-
+.imge {
+  /* align-self: center; */
 }
 nav ul {
   display: flex;
@@ -22,7 +20,7 @@ nav ul {
   justify-items: center;
 }
 nav ul li {
-  padding: 10px;
+  padding: 20px;
   align-self: center;
 }
 nav a {
@@ -36,15 +34,76 @@ nav select {
   color: #525c65;
   font-weight: 400;
 }
-nav button{
-    border: none;
-    background-color: #02B7E9;
-    padding: 10px;
-    color: white;
-    width: 132px;
-    height: 35px;
+nav button {
+  border: none;
+  background-color: #02b7e9;
+  padding: 10px;
+  color: white;
+  width: 132px;
+  height: 35px;
 }
-main img{
-    width: 809px;
-    height: 326px;
+main {
+  display: flex;
+  margin-top: 10px;
+}
+main img {
+  width: 809px;
+  height: 326px;
+}
+.left_div {
+  display: flex;
+  justify-content: center;
+  background-image: url("HomepageBanner_tablet.jpg");
+  height: 326px;
+  width: 809px;
+  background-size: 809px 326px;
+  color: white;
+  align-items: center;
+}
+
+.left_con {
+  width: 555px;
+}
+.left_con h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.left_con p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  width: 460px;
+}
+.left_con button {
+  height: 50px;
+  width: 165px;
+  background-color: #02b7e9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px;
+}
+.left_con h5{
+  width: 275px;
+  line-height: 18px;
+}
+.left_con ul
+{
+display: flex;
+list-style-type: none;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.left_con ul li{
+  padding: 10px;
+
+}
+.icons{
+  width: 20px;
+  height: 20px;
+}
+.test{
+  display: flex;
+  justify-content: flex-start;
 }
