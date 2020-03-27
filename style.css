@@ -111,25 +111,33 @@ main img {
 /* leftt div end  */
 /* right div start here */
 .right_div {
-  width: 453px;
-  height: 327px;
-  /* display: flex;
+  width: 473px;
+  height: 375px;
+  display: flex;
   justify-content: center;
-  flex-direction: column; */
+  flex-direction: column;
+  align-items: center;
 }
 .right_div h2 {
   font-weight: 300;
   color: #525c65;
 }
+.right_div img {
+  width: 10px;
+  height: 13px;
+  
+}
 /* table  */
 table {
-  padding: 2px;
+  padding: 0px;
+  margin: 0px;
+  border-spacing: 0px;
 }
 /* table boxes  */
 /* blue box */
 .blue_box {
   width: 108px;
-  height: 47px;
+  height: 40px;
   background-color: #02b3e4;
   display: flex;
   justify-content: center;
@@ -139,7 +147,7 @@ table {
 }
 .gray_box {
   width: 108px;
-  height: 47px;
+  height: 40px;
   background-color: #b4b9bd;
   display: flex;
   justify-content: center;
@@ -147,8 +155,17 @@ table {
   color: white;
   font-size: 13px;
 }
-.right_div img {
-  width: 10px;
-  height: 13px;
-  text-align: center;
+
+.td_text{
+  width: 243px;
+  height: 40px;
+  background-color: #F5FCFE;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #525c65;
+  margin: 0px;
+  background-color: #F5FCFE;
+
 }
