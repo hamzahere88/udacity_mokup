@@ -122,6 +122,9 @@ main img {
   color: #525c65;
 }
 /* table  */
+table {
+  padding: 2px;
+}
 /* table boxes  */
 /* blue box */
 .blue_box {
@@ -131,14 +134,18 @@ main img {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-size: 13px;
 }
 .gray_box {
   width: 108px;
   height: 47px;
-  background-color: #02b3e4;
+  background-color: #b4b9bd;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-size: 13px;
 }
 .right_div img {
   width: 10px;
