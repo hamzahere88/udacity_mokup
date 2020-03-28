@@ -200,12 +200,15 @@ table {
   color: #525c65;
 }
 /* end text ul */
-.section1 ul{
+.card_ul{
   display: flex;
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
-.section1 ul li{
-  padding: 20x;
+.card_ul li{
+  padding: 10px;
+  box-shadow: 2px 5px 10px 2px #525c65;
 }
 .sec1_card
 {
