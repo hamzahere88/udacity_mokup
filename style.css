@@ -270,9 +270,13 @@ table {
   color: #2e3d49;
   font-size: 17px;
   font-weight: 700;
+  text-align: center;
+  width: 284px;
 }
 .sec2_card p{
   font-size: 14px;
   align-self: center;
   line-height: 28px;
+  text-align: center;
+  width: 284px;
 }
