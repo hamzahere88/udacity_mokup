@@ -293,3 +293,16 @@ table {
 }
 /* section 2 end */
 /* section 2 start */
+.sec3_main
+{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec3_center{
+  width: 80%;
+  height: 336px;
+  background-color: #2E3D49;
+}
