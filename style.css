@@ -308,16 +308,42 @@ table {
   flex-direction: column;
   align-items: center;
   display: flex;
-
 }
 .sec3_center h1 {
   color: white;
   font-size: 32px;
   font-weight: 300;
 }
-.sec3_center  p{
+.sec3_center p {
   color: white;
   font-size: 16px;
   font-weight: 400;
-  width: 100px;
+  text-align: center;
+  width: 745px;
+  line-height: 28px;
+}
+.sec3_center button {
+  padding: 10px;
+  width: 222px;
+  height: 49px;
+  color: white;
+  font-size: 12px;
+  background-color: #02b7e9;
+  border: none;
+  border-radius: 5px;
+}
+/* sec3 end */
+/* sec4 start */
+.sec4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sec4_ul{
+  display: flex;
+  
+}
+.sec4_ul li{
+  list-style-type: none;
 }
