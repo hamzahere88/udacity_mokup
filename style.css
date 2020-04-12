@@ -340,10 +340,24 @@ table {
   align-items: center;
   flex-direction: column;
 }
-.sec4_ul{
-  display: flex;
+.sec4 p{
+  text-align: center;
   
 }
-.sec4_ul li{
+.sec4_ul {
+  display: flex;
   list-style-type: none;
 }
+.sec4_ul li {
+}
+.sec4_card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.sec4_card p{
+  width: 230px;
+  text-align: center;
+}
+/* for git push */
