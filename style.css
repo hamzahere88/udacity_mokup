@@ -340,15 +340,20 @@ table {
   align-items: center;
   flex-direction: column;
 }
-.sec4 p{
+.sec4 h2{
   text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+Color:#2e3d49;
   
 }
 .sec4_ul {
   display: flex;
   list-style-type: none;
+  justify-content: space-evenly;
 }
 .sec4_ul li {
+  padding: 10px;
 }
 .sec4_card {
   display: flex;
@@ -360,4 +365,3 @@ table {
   width: 230px;
   text-align: center;
 }
-/* for git push */
