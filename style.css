@@ -373,3 +373,22 @@ table {
   font-weight: 600;
   color: #11161a;
 }
+.card2_ul {
+  display: flex;
+  list-style-type: none;
+}
+.card2_ul li {
+  padding: 10px;
+}
+.card2_sec4 {
+  display: flex;
+  flex-direction: column;
+  width: 344px;
+  height: 376px;
+  border-top: 2px solid blue;
+  border-radius: 8px;
+}
+.car2_img{
+  width: 64px;
+  height: 64px;
+}
